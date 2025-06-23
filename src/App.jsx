@@ -6,9 +6,11 @@ function App() {
   //App: parent component
   //Header: Child Component
 
+  // here name is the attribute
+  // passing data from parent to child
   return (
     <>
-      <Header name={"Krish"} age={"25"} />
+      <Header name={"Krishs"} age={"25"} />
       <Header name={"srinivas"} age={"30"} />
     </>
   );
