@@ -1,7 +1,6 @@
 // using rfce shortcut
 
 import Hello from "./components/hello";
-
 // import Header from "./components/Header";
 
 function App() {
