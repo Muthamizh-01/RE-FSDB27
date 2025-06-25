@@ -1,5 +1,15 @@
 // using rfce shortcut
 
+//import React from "react";
+
+// CLASS COMPONENT IN REACT
+// extends keyword for inheritance
+// class App extends React.Component {
+//   render() {
+//     return <h1>Hello hello world !!!</h1>;
+//   }
+// }
+
 // import Hello from "./components/hello";
 // import Header from "./components/Header";
 
@@ -14,10 +24,15 @@
 // };
 
 // FUNCTIONAL COMPONENT USING ARROW FUNCTION - "MOSTLY PREFERRED"
-const App = () => {
-  return <h1>Hello,, world</h1>;
-};
 
+// multiple components in react using functional components
+//passing data - here the data name is passed
+const Hello = (props) => {
+  return <h1>hello worlddddedd{props.name}!!!</h1>;
+};
+const App = () => {
+  return <Hello name="DENIS" />;
+};
 export default App;
 
 //   //App: parent component
